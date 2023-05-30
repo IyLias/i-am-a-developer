@@ -16,10 +16,6 @@ All about computer science knowledge
 
 - DFS
 
-- Tree
-
-- Graph
-
 
 ### Computer Architecture
 
@@ -44,7 +40,12 @@ All about computer science knowledge
 
 - B-Tree & B+Tree
 
-- 
+- Graph
+
+- Hash Table
+
+- Tree
+
 
 
 ### Network
