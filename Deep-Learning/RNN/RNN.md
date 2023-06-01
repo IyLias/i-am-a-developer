@@ -30,7 +30,6 @@ This equation shows that $h^t$(i.e, value at time t) is decided by input value $
 
 
 
-
  
 ### Difference between MLP(DMLP) and RNN 
 
@@ -40,9 +39,24 @@ This equation shows that $h^t$(i.e, value at time t) is decided by input value $
 * RNN shares weights. So we just write its weight as $W$
 
 
+### BRNN
+
+BRNN connect two hidden layers of opposite directions to the same output. 
+
+
+
+### Problems of RNN
+
+* Vanishing Gradient
+
+
+* Gradient Explosion
 
 
 <br><br>
 
 ### LSTM : Long Short Term Memory
+
+LSTM is made for solving RNN's problems. 
+
 
