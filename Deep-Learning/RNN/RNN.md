@@ -23,10 +23,16 @@ This equation shows that $h^t$(i.e, value at time t) is decided by input value $
 
 ### Behavior
 
+Gonna edit... 
 
+<br>
 
 
 ### BPTT Algorithm (Back Propagation Through Time)
+
+![image](https://github.com/IyLias/i-am-a-developer/assets/48081162/36e38627-2b5c-4b65-a260-62eda0be7b22)
+
+
 
 
 
@@ -47,10 +53,12 @@ BRNN connect two hidden layers of opposite directions to the same output.
 
 ### Problems of RNN
 
-* Vanishing Gradient
+* Gradient Vanishing
+  Gradient keeps decreasing and almost converges to 0 so it loses its function to direct to optimized solution.
 
 
 * Gradient Explosion
+  Gradient keeps increasing and gets NAN so it turns into the state that can't keep learning. 
 
 
 <br><br>
@@ -58,5 +66,11 @@ BRNN connect two hidden layers of opposite directions to the same output.
 ### LSTM : Long Short Term Memory
 
 LSTM is made for solving RNN's problems. 
+
+There exists memory blocks in hidden nodes in LSTM. 
+
+
+
+
 
 
