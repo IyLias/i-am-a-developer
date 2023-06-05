@@ -99,7 +99,9 @@ BRNN connect two hidden layers of opposite directions to the same output.
 
 * Gradient Vanishing
   Gradient keeps decreasing and almost converges to 0 so it loses its function to direct to optimized solution.
-
+  This means that when the distance between related information and the node uses that information is too far, it hardly affect.. 
+  This is called long-term dependence
+  
 
 * Gradient Explosion
   Gradient keeps increasing and gets NAN so it turns into the state that can't keep learning. 
@@ -111,9 +113,14 @@ BRNN connect two hidden layers of opposite directions to the same output.
 
 LSTM is made for solving RNN's problems. 
 
-There exists memory blocks in hidden nodes in LSTM. 
+There exists memory blocks(cell state) in hidden nodes in LSTM. 
+
+It adds Input Gate, Output Gate and Forget Gate. 
 
 
+
+
+* PeepHole Function 
 
 
 
@@ -123,6 +130,7 @@ There exists memory blocks in hidden nodes in LSTM.
 
 [reference](https://wikidocs.net/22886)
 
-[reference](https://www.deeplearningbook.org/contents/rnn.html)
+[RNN 관련 원서](https://www.deeplearningbook.org/contents/rnn.html)
 
+[RNN BPTT](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/)
 
